@@ -5,6 +5,9 @@ An interactive web app that compresses images using **KMeans color quantization*
 Built with Python, Scikit-Learn, and Streamlit.
 
 ---
+## Live Demo
+[Try it here]
+https://image-color-compression-swasthikbyshruti.streamlit.app/
 
 ## Demo
 
