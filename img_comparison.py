@@ -4,7 +4,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-from compression import compress_with_kmeans, get_image_size_kb
+from img_compression import compress_with_kmeans, get_image_size_kb
 
 
 def compress_jpeg(image_array, quality=80):
