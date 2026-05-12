@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 from compression import load_image, compress_with_kmeans, get_size_reduction
 from comparison import run_comparison, plot_comparison_chart, plot_visual_comparison
 
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))  
+
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Image Color Compressor",
