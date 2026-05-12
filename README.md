@@ -1,4 +1,4 @@
-# 🎨 Image Color Compressor
+# Image Color Compressor
 
 An interactive web app that compresses images using **KMeans color quantization** — reducing millions of possible colors down to just a handful, while preserving visual structure.
 
@@ -6,7 +6,7 @@ Built with Python, Scikit-Learn, and Streamlit.
 
 ---
 
-## 🖼️ Demo
+## Demo
 
 | Original | 16 Colors | 8 Colors |
 |----------|-----------|----------|
@@ -16,18 +16,18 @@ Built with Python, Scikit-Learn, and Streamlit.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📤 Upload your own image (JPG, PNG, WebP)
-- 🎛️ Adjust number of colors with a live slider (2–64)
-- 📊 Before/after comparison with file size metrics
-- 🎯 Color space scatter plot visualization
-- 📉 Full compression method comparison (KMeans vs JPEG vs WebP vs PIL)
-- ⬇️ Download the compressed result
+- Upload your own image (JPG, PNG, WebP)
+- Adjust number of colors with a live slider (2–64)
+- Before/after comparison with file size metrics
+- Color space scatter plot visualization
+- Full compression method comparison (KMeans vs JPEG vs WebP vs PIL)
+- Download the compressed result
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Each pixel in the image is a point in 3D color space (R, G, B)
 2. **MiniBatchKMeans** clusters all pixels into N groups
@@ -37,7 +37,7 @@ Built with Python, Scikit-Learn, and Streamlit.
 
 ---
 
-## 📊 Compression Method Comparison
+## Compression Method Comparison
 
 | Method          | Avg Size | Reduction | Quality |
 |-----------------|----------|-----------|---------|
@@ -49,7 +49,7 @@ Built with Python, Scikit-Learn, and Streamlit.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -71,7 +71,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 image-color-compression/
@@ -86,7 +86,7 @@ image-color-compression/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **Scikit-Learn** — MiniBatchKMeans clustering
@@ -97,7 +97,7 @@ image-color-compression/
 
 ---
 
-## 📖 What I Learned
+## What I Learned
 
 - How KMeans can be applied to non-traditional problems like image processing
 - The difference between lossy (JPEG) and lossless (PNG) compression
@@ -107,12 +107,11 @@ image-color-compression/
 
 ---
 
-## 🔮 Future Improvements
-
-- [ ] Add JPEG 2000 (wavelet-based) compression
-- [ ] Side-by-side SSIM (quality score) comparison
-- [ ] Batch processing for multiple images
-- [ ] Deploy to Streamlit Cloud
+## Future Improvements
+- Add JPEG 2000 (wavelet-based) compression
+- Side-by-side SSIM (quality score) comparison
+- Batch processing for multiple images
+- Deploy to Streamlit Cloud
 
 ---
 
